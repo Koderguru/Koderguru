@@ -1,12 +1,12 @@
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ab.png" width="28" style="vertical-align:middle"/> About Me:
 
-![Software Developer](https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=googlechrome&logoColor=white)
-&nbsp;
-![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackaday&logoColor=white)
-&nbsp;
-![Telegram Influencer](https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-&nbsp;
-![UGAmit](https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge)
+<img src="https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=github&logoColor=white" height="35"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackthebox&logoColor=white" height="35"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" height="35"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge" height="35"/>
 
 ## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f310.png" width="24" style="vertical-align:middle"/> Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/)
