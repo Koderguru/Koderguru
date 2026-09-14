@@ -1,6 +1,12 @@
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ab.png" width="28" style="vertical-align:middle"/> About Me:
 
-![Software](https://img.shields.io/badge/Software-000000?style=for-the-badge) ![Developer](https://img.shields.io/badge/Developer-000000?style=for-the-badge) ![Ethical](https://img.shields.io/badge/Ethical-red?style=for-the-badge) ![Hacker](https://img.shields.io/badge/Hacker-red?style=for-the-badge) ![Data](https://img.shields.io/badge/Data-0077B5?style=for-the-badge) ![Scientist](https://img.shields.io/badge/Scientist-0077B5?style=for-the-badge) ![Associate](https://img.shields.io/badge/Associate-0077B5?style=for-the-badge) ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) ![Influencer](https://img.shields.io/badge/Influencer-26A5E4?style=for-the-badge) ![UGAmit](https://img.shields.io/badge/UGAmit-blueviolet?style=for-the-badge)
+![Software Developer](https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=googlechrome&logoColor=white)
+&nbsp;
+![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackaday&logoColor=white)
+&nbsp;
+![Telegram Influencer](https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+&nbsp;
+![UGAmit](https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge)
 
 ## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f310.png" width="24" style="vertical-align:middle"/> Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/)
