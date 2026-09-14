@@ -11,9 +11,6 @@
 
 # 💻 Tech Stack
 
-![Skills](https://skillicons.dev/icons?i=swift,bash,php,mongodb,firebase,heroku,vercel,aws,postgres,mysql,git,github)
-
-
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
