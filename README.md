@@ -32,6 +32,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/decoderisback/"><img src="./leetcode-card.svg" height="175" align="middle" alt="LeetCode Stats" /></a>
   &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://leetcode.com/static/images/badges/knight.png" width="62" align="middle" title="Knight Badge" alt="Knight Badge" /></a>
   <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="58" align="middle" title="500 Days Badge" alt="500 Days Badge" /></a>
   <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="58" align="middle" title="365 Days Badge" alt="365 Days Badge" /></a>
   <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/others/lg25100.png" width="58" align="middle" title="100 Days Badge 2025" alt="100 Days Badge 2025" /></a>
