@@ -1,0 +1,160 @@
+<svg width="940" height="320" viewBox="0 0 940 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .sub { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .card-val { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .card-sub { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #7d8590; }
+    .card-label { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .lang-name { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .lang-count { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }
+    .lang-pct { font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+  </style>
+
+  <!-- Outer Card Frame -->
+  <rect width="940" height="320" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Vertical Divider -->
+  <line x1="415" y1="20" x2="415" y2="300" stroke="#21262d" stroke-width="1.5" stroke-dasharray="4 4" />
+
+  <!-- ================= LEFT PANEL: GITHUB STATS & CONTRIBUTIONS ================= -->
+  <!-- Left Header -->
+  <g transform="translate(28, 38)">
+    <circle cx="8" cy="8" r="8" fill="#238636" fill-opacity="0.2" />
+    <circle cx="8" cy="8" r="4" fill="#3fb950" />
+    <text x="24" y="13" class="header">GitHub Activity &amp; Stats</text>
+    <text x="360" y="13" class="sub" text-anchor="end">Private &amp; Public Active</text>
+  </g>
+
+  <!-- 4 Metric Cards (2x2 Grid) -->
+  <!-- Card 1: Total Contributions -->
+  <rect x="28" y="70" width="175" height="80" rx="10" class="box" />
+  <g transform="translate(42, 92)">
+    <text x="0" y="12" class="card-val">617</text>
+    <text x="60" y="12" class="card-sub">(500 private)</text>
+    <text x="0" y="42" class="card-label">🔥 Total Contributions</text>
+  </g>
+
+  <!-- Card 2: Repositories -->
+  <rect x="215" y="70" width="175" height="80" rx="10" class="box" />
+  <g transform="translate(229, 92)">
+    <text x="0" y="12" class="card-val">99</text>
+    <text x="40" y="12" class="card-sub">(83 private)</text>
+    <text x="0" y="42" class="card-label">📦 Total Repositories</text>
+  </g>
+
+  <!-- Card 3: Stars Earned -->
+  <rect x="28" y="162" width="175" height="80" rx="10" class="box" />
+  <g transform="translate(42, 184)">
+    <text x="0" y="12" class="card-val">54</text>
+    <text x="0" y="42" class="card-label">⭐ Total Stars Earned</text>
+  </g>
+
+  <!-- Card 4: Pull Requests -->
+  <rect x="215" y="162" width="175" height="80" rx="10" class="box" />
+  <g transform="translate(229, 184)">
+    <text x="0" y="12" class="card-val">19</text>
+    <text x="35" y="12" class="card-sub">(3 issues)</text>
+    <text x="0" y="42" class="card-label">🔀 Pull Requests</text>
+  </g>
+
+  <!-- Streak & Year Row at Bottom -->
+  <rect x="28" y="254" width="362" height="46" rx="8" class="box" />
+  <g transform="translate(42, 282)">
+    <text x="0" y="0" class="card-label">⚡ Year Commits: <tspan fill="#f0f6fc" font-weight="700">79</tspan></text>
+    <text x="180" y="0" class="card-label">🏆 Longest Streak: <tspan fill="#f0f6fc" font-weight="700">8 Days</tspan></text>
+  </g>
+
+  <!-- ================= RIGHT PANEL: MOST USED LANGUAGES (CIRCULAR) ================= -->
+  <!-- Right Header -->
+  <g transform="translate(440, 38)">
+    <text x="0" y="13" class="header">Most Used Languages</text>
+    <text x="475" y="13" class="sub" text-anchor="end">Private Repositories</text>
+  </g>
+
+  <!-- Donut Chart -->
+  <circle cx="505" cy="185" r="56" fill="none" stroke="#21262d" stroke-width="16" />
+  <circle cx="505" cy="185" r="56" fill="none" stroke="#3178c6" stroke-width="16" stroke-dasharray="95.96 255.90" stroke-dashoffset="-0.00" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#f1e05a" stroke-width="16" stroke-dasharray="49.76 302.10" stroke-dashoffset="-95.96" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#e34c26" stroke-width="16" stroke-dasharray="42.65 309.21" stroke-dashoffset="-145.72" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#A97BFF" stroke-width="16" stroke-dasharray="35.54 316.32" stroke-dashoffset="-188.37" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#3572A5" stroke-width="16" stroke-dasharray="28.43 323.43" stroke-dashoffset="-223.91" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#563d7c" stroke-width="16" stroke-dasharray="24.88 326.98" stroke-dashoffset="-252.34" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#F05138" stroke-width="16" stroke-dasharray="3.55 348.30" stroke-dashoffset="-277.22" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#00B4AB" stroke-width="16" stroke-dasharray="3.55 348.30" stroke-dashoffset="-280.78" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#00ADD8" stroke-width="16" stroke-dasharray="3.55 348.30" stroke-dashoffset="-284.33" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#f34b7d" stroke-width="16" stroke-dasharray="3.55 348.30" stroke-dashoffset="-287.88" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#427819" stroke-width="16" stroke-dasharray="3.55 348.30" stroke-dashoffset="-291.44" transform="rotate(-90 505 185)" /><circle cx="505" cy="185" r="56" fill="none" stroke="#6e7681" stroke-width="16" stroke-dasharray="56.87 294.99" stroke-dashoffset="-294.99" transform="rotate(-90 505 185)" />
+  
+  <!-- Donut Center Icon (Code Brackets) -->
+  <g transform="translate(505, 185)">
+    <polyline points="3 8 9 2 3 -4" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="-3 -4 -9 2 -3 8" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Language Legend Columns -->
+  
+    <g transform="translate(600, 100)">
+      <circle cx="5" cy="5" r="4.5" fill="#3178c6" />
+      <text x="16" y="9" class="lang-name">TypeScript</text>
+      <text x="110" y="9" class="lang-count">27 repos</text>
+      <text x="155" y="9" class="lang-pct">27.3%</text>
+    </g>
+    <g transform="translate(600, 126)">
+      <circle cx="5" cy="5" r="4.5" fill="#f1e05a" />
+      <text x="16" y="9" class="lang-name">JavaScript</text>
+      <text x="110" y="9" class="lang-count">14 repos</text>
+      <text x="155" y="9" class="lang-pct">14.1%</text>
+    </g>
+    <g transform="translate(600, 152)">
+      <circle cx="5" cy="5" r="4.5" fill="#e34c26" />
+      <text x="16" y="9" class="lang-name">HTML</text>
+      <text x="110" y="9" class="lang-count">12 repos</text>
+      <text x="155" y="9" class="lang-pct">12.1%</text>
+    </g>
+    <g transform="translate(600, 178)">
+      <circle cx="5" cy="5" r="4.5" fill="#A97BFF" />
+      <text x="16" y="9" class="lang-name">Kotlin</text>
+      <text x="110" y="9" class="lang-count">10 repos</text>
+      <text x="155" y="9" class="lang-pct">10.1%</text>
+    </g>
+    <g transform="translate(600, 204)">
+      <circle cx="5" cy="5" r="4.5" fill="#3572A5" />
+      <text x="16" y="9" class="lang-name">Python</text>
+      <text x="110" y="9" class="lang-count">8 repos</text>
+      <text x="155" y="9" class="lang-pct">8.1%</text>
+    </g>
+    <g transform="translate(600, 230)">
+      <circle cx="5" cy="5" r="4.5" fill="#563d7c" />
+      <text x="16" y="9" class="lang-name">CSS</text>
+      <text x="110" y="9" class="lang-count">7 repos</text>
+      <text x="155" y="9" class="lang-pct">7.1%</text>
+    </g>
+  
+    <g transform="translate(775, 100)">
+      <circle cx="5" cy="5" r="4.5" fill="#F05138" />
+      <text x="16" y="9" class="lang-name">Swift</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="140" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(775, 126)">
+      <circle cx="5" cy="5" r="4.5" fill="#00B4AB" />
+      <text x="16" y="9" class="lang-name">Dart</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="140" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(775, 152)">
+      <circle cx="5" cy="5" r="4.5" fill="#00ADD8" />
+      <text x="16" y="9" class="lang-name">Go</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="140" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(775, 178)">
+      <circle cx="5" cy="5" r="4.5" fill="#f34b7d" />
+      <text x="16" y="9" class="lang-name">C++</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="140" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(775, 204)">
+      <circle cx="5" cy="5" r="4.5" fill="#427819" />
+      <text x="16" y="9" class="lang-name">Makefile</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="140" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(775, 230)">
+      <circle cx="5" cy="5" r="4.5" fill="#6e7681" />
+      <text x="16" y="9" class="lang-name">Other/Data</text>
+      <text x="95" y="9" class="lang-count">16 repos</text>
+      <text x="140" y="9" class="lang-pct">16.2%</text>
+    </g>
+</svg>

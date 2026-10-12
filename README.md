@@ -44,9 +44,10 @@
 </p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=koderguru&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=koderguru&theme=dark&hide_border=false)<br/>
-![](./languages-chart.svg)
+
+<p align="center">
+  <img src="./github-stats.svg" alt="GitHub Stats & Analytics" />
+</p>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Ugamit&icon=0&color=0)](https://visitcount.itsvg.in)

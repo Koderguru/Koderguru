@@ -1,4 +1,4 @@
-name: Update Languages Card
+name: Update GitHub Stats Dashboard
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-languages:
+  update-dashboard:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -20,20 +20,20 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate Languages SVG
+      - name: Generate GitHub Dashboard SVG
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 scripts/generate_langs.py
+          python3 scripts/generate_dashboard.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add languages.svg
+          git add github-stats.svg languages.svg languages-chart.svg
           if git diff --staged --quiet; then
-            echo "No changes in languages stats"
+            echo "No changes in dashboard stats"
           else
-            git commit -m "chore: update most used languages stats"
+            git commit -m "chore: update GitHub dashboard stats"
             git push
           fi
