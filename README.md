@@ -3,7 +3,7 @@
 ![Software Developer](https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=github&logoColor=white) ![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackthebox&logoColor=white) ![Telegram Influencer](https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) ![UGAmit](https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge)
 
 ## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f310.png" width="24" style="vertical-align:middle"/> Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=LeetCode&logoColor=black)](https://leetcode.com/u/koderbro/)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=LeetCode&logoColor=black)](https://leetcode.com/u/decoderisback/)
 
 ![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/ugamit.png)
 
@@ -30,13 +30,13 @@
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements:
 
 <p align="center">
-  <a href="https://leetcode.com/u/koderbro/"><img src="./leetcode-card.svg" height="175" align="middle" alt="LeetCode Stats" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="./leetcode-card.svg" height="175" align="middle" alt="LeetCode Stats" /></a>
   &nbsp;&nbsp;
-  <a href="https://leetcode.com/u/koderbro/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="58" align="middle" title="1000 Days Badge" alt="1000 Days Badge" /></a>
-  <a href="https://leetcode.com/u/koderbro/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="58" align="middle" title="500 Days Badge" alt="500 Days Badge" /></a>
-  <a href="https://leetcode.com/u/koderbro/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="58" align="middle" title="365 Days Badge" alt="365 Days Badge" /></a>
-  <a href="https://leetcode.com/u/koderbro/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="58" align="middle" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
-  <a href="https://leetcode.com/u/koderbro/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="58" align="middle" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="58" align="middle" title="500 Days Badge" alt="500 Days Badge" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="58" align="middle" title="365 Days Badge" alt="365 Days Badge" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/others/lg25100.png" width="58" align="middle" title="100 Days Badge 2025" alt="100 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="58" align="middle" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
+  <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg2023.png" width="58" align="middle" title="Annual Badge 2023" alt="Annual Badge 2023" /></a>
 </p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
