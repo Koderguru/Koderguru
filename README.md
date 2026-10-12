@@ -3,11 +3,15 @@
 ![Software Developer](https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=github&logoColor=white) ![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackthebox&logoColor=white) ![Telegram Influencer](https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) ![UGAmit](https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge)
 
 ## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f310.png" width="24" style="vertical-align:middle"/> Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=LeetCode&logoColor=black)](https://leetcode.com/u/decoderisback/)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=LeetCode&logoColor=black)](https://leetcode.com/u/decoderisback/) [![TryHackMe](https://img.shields.io/badge/TryHackMe-%23212C42.svg?logo=TryHackMe&logoColor=white)](https://tryhackme.com/p/ugamit)
 
-![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/ugamit.png)
+<p align="center">
+  <a href="https://tryhackme.com/p/ugamit" target="_blank">
+    <img src="./tryhackme-dashboard.png" alt="TryHackMe Profile ugamit" width="100%" />
+  </a>
+</p>
 
-🌍 **TryHackMe Global Rank:** 300+ &nbsp;|&nbsp; 🇮🇳 **TryHackMe India Monthly Rank:** #1
+🌍 **TryHackMe Global Rank:** Top 1% (#542) &nbsp;|&nbsp; 🏆 **Completed Rooms:** 759+ &nbsp;|&nbsp; 🎖️ **Badges:** 99
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" width="28" style="vertical-align:middle"/> Tech Stack
 
