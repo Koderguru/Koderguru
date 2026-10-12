@@ -1,100 +1,104 @@
-<svg width="520" height="250" viewBox="0 0 520 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="540" height="240" viewBox="0 0 540 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .header { font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }
-    .sub { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
-    .lang-name { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }
-    .lang-count { font: 400 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }
-    .lang-pct { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }
+    .header { font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .sub { font: 500 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .lang-name { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .lang-count { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }
+    .lang-pct { font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }
+    .donut-bg { stroke: #21262d; }
+    .donut-icon { fill: #8b949e; }
   </style>
-  <rect width="520" height="250" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect width="540" height="240" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1" />
   
   <!-- Header -->
-  <text x="30" y="38" class="header">Most Used Languages</text>
-  <text x="490" y="38" class="sub" text-anchor="end">All 99 Repositories</text>
+  <text x="28" y="36" class="header">Most Used Languages</text>
+  <text x="512" y="36" class="sub" text-anchor="end">Private Repositories</text>
+
+  <!-- Donut Chart -->
+  <circle cx="110" cy="135" r="62" fill="none" stroke="#21262d" stroke-width="18" />
+  <circle cx="110" cy="135" r="62" fill="none" stroke="#3178c6" stroke-width="18" stroke-dasharray="106.23 283.33" stroke-dashoffset="-0.00" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#f1e05a" stroke-width="18" stroke-dasharray="55.08 334.47" stroke-dashoffset="-106.23" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#e34c26" stroke-width="18" stroke-dasharray="47.21 342.34" stroke-dashoffset="-161.32" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#A97BFF" stroke-width="18" stroke-dasharray="39.35 350.21" stroke-dashoffset="-208.53" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#3572A5" stroke-width="18" stroke-dasharray="27.54 362.02" stroke-dashoffset="-247.88" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#563d7c" stroke-width="18" stroke-dasharray="27.54 362.02" stroke-dashoffset="-275.42" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#F05138" stroke-width="18" stroke-dasharray="3.93 385.62" stroke-dashoffset="-302.96" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#00B4AB" stroke-width="18" stroke-dasharray="3.93 385.62" stroke-dashoffset="-306.89" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#00ADD8" stroke-width="18" stroke-dasharray="3.93 385.62" stroke-dashoffset="-310.83" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#f34b7d" stroke-width="18" stroke-dasharray="3.93 385.62" stroke-dashoffset="-314.76" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#427819" stroke-width="18" stroke-dasharray="3.93 385.62" stroke-dashoffset="-318.70" transform="rotate(-90 110 135)" /><circle cx="110" cy="135" r="62" fill="none" stroke="#6e7681" stroke-width="18" stroke-dasharray="62.95 326.60" stroke-dashoffset="-322.63" transform="rotate(-90 110 135)" />
   
-  <!-- Progress Bar Container -->
-  <clipPath id="bar-clip">
-    <rect x="30" y="65" width="460" height="12" rx="6" />
-  </clipPath>
-  
-  <rect x="30" y="65" width="460" height="12" rx="6" fill="#21262d" />
-  <g clip-path="url(#bar-clip)">
-    <rect x="30.0" y="65" width="125.5" height="12" fill="#3178c6" /><rect x="155.5" y="65" width="65.1" height="12" fill="#f1e05a" /><rect x="220.5" y="65" width="55.8" height="12" fill="#e34c26" /><rect x="276.3" y="65" width="46.5" height="12" fill="#A97BFF" /><rect x="322.7" y="65" width="37.2" height="12" fill="#3572A5" /><rect x="359.9" y="65" width="32.5" height="12" fill="#563d7c" /><rect x="392.4" y="65" width="4.6" height="12" fill="#F05138" /><rect x="397.1" y="65" width="4.6" height="12" fill="#00B4AB" /><rect x="401.7" y="65" width="4.6" height="12" fill="#00ADD8" /><rect x="406.4" y="65" width="4.6" height="12" fill="#f34b7d" /><rect x="411.0" y="65" width="4.6" height="12" fill="#427819" /><rect x="415.7" y="65" width="74.3" height="12" fill="#6e7681" />
+  <!-- Donut Center Icon (Code / Shield) -->
+  <g transform="translate(96, 121)">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="16 18 22 12 16 6"></polyline>
+      <polyline points="8 6 2 12 8 18"></polyline>
+    </svg>
   </g>
+
+  <!-- Legend Columns -->
   
-  <!-- Language List -->
-  
-    <g transform="translate(30, 104)">
-      <circle cx="5" cy="5" r="5" fill="#3178c6" />
-      <text x="18" y="9" class="lang-name">TypeScript</text>
-      <text x="145" y="9" class="lang-count">27 repos</text>
-      <text x="210" y="9" class="lang-pct">27.3%</text>
+    <g transform="translate(230, 75)">
+      <circle cx="5" cy="5" r="4.5" fill="#3178c6" />
+      <text x="16" y="9" class="lang-name">TypeScript</text>
+      <text x="110" y="9" class="lang-count">27 repos</text>
+      <text x="150" y="9" class="lang-pct">27.3%</text>
     </g>
-    <g transform="translate(30, 127)">
-      <circle cx="5" cy="5" r="5" fill="#f1e05a" />
-      <text x="18" y="9" class="lang-name">JavaScript</text>
-      <text x="145" y="9" class="lang-count">14 repos</text>
-      <text x="210" y="9" class="lang-pct">14.1%</text>
+    <g transform="translate(230, 100)">
+      <circle cx="5" cy="5" r="4.5" fill="#f1e05a" />
+      <text x="16" y="9" class="lang-name">JavaScript</text>
+      <text x="110" y="9" class="lang-count">14 repos</text>
+      <text x="150" y="9" class="lang-pct">14.1%</text>
     </g>
-    <g transform="translate(30, 150)">
-      <circle cx="5" cy="5" r="5" fill="#e34c26" />
-      <text x="18" y="9" class="lang-name">HTML</text>
-      <text x="145" y="9" class="lang-count">12 repos</text>
-      <text x="210" y="9" class="lang-pct">12.1%</text>
+    <g transform="translate(230, 125)">
+      <circle cx="5" cy="5" r="4.5" fill="#e34c26" />
+      <text x="16" y="9" class="lang-name">HTML</text>
+      <text x="110" y="9" class="lang-count">12 repos</text>
+      <text x="150" y="9" class="lang-pct">12.1%</text>
     </g>
-    <g transform="translate(30, 173)">
-      <circle cx="5" cy="5" r="5" fill="#A97BFF" />
-      <text x="18" y="9" class="lang-name">Kotlin</text>
-      <text x="145" y="9" class="lang-count">10 repos</text>
-      <text x="210" y="9" class="lang-pct">10.1%</text>
+    <g transform="translate(230, 150)">
+      <circle cx="5" cy="5" r="4.5" fill="#A97BFF" />
+      <text x="16" y="9" class="lang-name">Kotlin</text>
+      <text x="110" y="9" class="lang-count">10 repos</text>
+      <text x="150" y="9" class="lang-pct">10.1%</text>
     </g>
-    <g transform="translate(30, 196)">
-      <circle cx="5" cy="5" r="5" fill="#3572A5" />
-      <text x="18" y="9" class="lang-name">Python</text>
-      <text x="145" y="9" class="lang-count">8 repos</text>
-      <text x="210" y="9" class="lang-pct">8.1%</text>
+    <g transform="translate(230, 175)">
+      <circle cx="5" cy="5" r="4.5" fill="#3572A5" />
+      <text x="16" y="9" class="lang-name">Python</text>
+      <text x="110" y="9" class="lang-count">7 repos</text>
+      <text x="150" y="9" class="lang-pct">7.1%</text>
     </g>
-    <g transform="translate(30, 219)">
-      <circle cx="5" cy="5" r="5" fill="#563d7c" />
-      <text x="18" y="9" class="lang-name">CSS</text>
-      <text x="145" y="9" class="lang-count">7 repos</text>
-      <text x="210" y="9" class="lang-pct">7.1%</text>
+    <g transform="translate(230, 200)">
+      <circle cx="5" cy="5" r="4.5" fill="#563d7c" />
+      <text x="16" y="9" class="lang-name">CSS</text>
+      <text x="110" y="9" class="lang-count">7 repos</text>
+      <text x="150" y="9" class="lang-pct">7.1%</text>
     </g>
   
-    <g transform="translate(275, 104)">
-      <circle cx="5" cy="5" r="5" fill="#F05138" />
-      <text x="18" y="9" class="lang-name">Swift</text>
-      <text x="145" y="9" class="lang-count">1 repo</text>
-      <text x="210" y="9" class="lang-pct">1.0%</text>
+    <g transform="translate(390, 75)">
+      <circle cx="5" cy="5" r="4.5" fill="#F05138" />
+      <text x="16" y="9" class="lang-name">Swift</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="135" y="9" class="lang-pct">1.0%</text>
     </g>
-    <g transform="translate(275, 127)">
-      <circle cx="5" cy="5" r="5" fill="#00B4AB" />
-      <text x="18" y="9" class="lang-name">Dart</text>
-      <text x="145" y="9" class="lang-count">1 repo</text>
-      <text x="210" y="9" class="lang-pct">1.0%</text>
+    <g transform="translate(390, 100)">
+      <circle cx="5" cy="5" r="4.5" fill="#00B4AB" />
+      <text x="16" y="9" class="lang-name">Dart</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="135" y="9" class="lang-pct">1.0%</text>
     </g>
-    <g transform="translate(275, 150)">
-      <circle cx="5" cy="5" r="5" fill="#00ADD8" />
-      <text x="18" y="9" class="lang-name">Go</text>
-      <text x="145" y="9" class="lang-count">1 repo</text>
-      <text x="210" y="9" class="lang-pct">1.0%</text>
+    <g transform="translate(390, 125)">
+      <circle cx="5" cy="5" r="4.5" fill="#00ADD8" />
+      <text x="16" y="9" class="lang-name">Go</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="135" y="9" class="lang-pct">1.0%</text>
     </g>
-    <g transform="translate(275, 173)">
-      <circle cx="5" cy="5" r="5" fill="#f34b7d" />
-      <text x="18" y="9" class="lang-name">C++</text>
-      <text x="145" y="9" class="lang-count">1 repo</text>
-      <text x="210" y="9" class="lang-pct">1.0%</text>
+    <g transform="translate(390, 150)">
+      <circle cx="5" cy="5" r="4.5" fill="#f34b7d" />
+      <text x="16" y="9" class="lang-name">C++</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="135" y="9" class="lang-pct">1.0%</text>
     </g>
-    <g transform="translate(275, 196)">
-      <circle cx="5" cy="5" r="5" fill="#427819" />
-      <text x="18" y="9" class="lang-name">Makefile</text>
-      <text x="145" y="9" class="lang-count">1 repo</text>
-      <text x="210" y="9" class="lang-pct">1.0%</text>
+    <g transform="translate(390, 175)">
+      <circle cx="5" cy="5" r="4.5" fill="#427819" />
+      <text x="16" y="9" class="lang-name">Makefile</text>
+      <text x="95" y="9" class="lang-count">1 repo</text>
+      <text x="135" y="9" class="lang-pct">1.0%</text>
     </g>
-    <g transform="translate(275, 219)">
-      <circle cx="5" cy="5" r="5" fill="#6e7681" />
-      <text x="18" y="9" class="lang-name">Other/Data</text>
-      <text x="145" y="9" class="lang-count">16 repos</text>
-      <text x="210" y="9" class="lang-pct">16.2%</text>
+    <g transform="translate(390, 200)">
+      <circle cx="5" cy="5" r="4.5" fill="#6e7681" />
+      <text x="16" y="9" class="lang-name">Other/Data</text>
+      <text x="95" y="9" class="lang-count">16 repos</text>
+      <text x="135" y="9" class="lang-pct">16.2%</text>
     </g>
 </svg>

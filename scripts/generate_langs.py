@@ -1,4 +1,4 @@
-import os, json, urllib.request
+import os, json, math, urllib.request
 
 token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 headers = {"User-Agent": "Koderguru-Lang-Stats"}
@@ -48,89 +48,101 @@ display_order = [
     "Go", "C++", "Makefile", "Other/Data"
 ]
 
-lang_data = []
+data = []
 for name in display_order:
     cnt = lang_counts.get(name, 0)
     if cnt > 0:
-        pct = (cnt / total_repos) * 100
+        pct = (cnt / total_repos) * 100 if total_repos > 0 else 0
         color = colors.get(name, "#8b949e")
-        lang_data.append({
+        data.append({
             "name": name,
             "count": cnt,
             "pct": pct,
             "color": color
         })
 
-width = 520
-height = 250
-bar_width = 460
-bar_x = 30
-bar_y = 65
-bar_height = 12
-rx = 6
+width = 540
+height = 240
 
-progress_rects = []
-current_x = bar_x
-for l in lang_data:
-    seg_w = (l["pct"] / 100.0) * bar_width
-    progress_rects.append(f'<rect x="{current_x:.1f}" y="{bar_y}" width="{seg_w:.1f}" height="{bar_height}" fill="{l["color"]}" />')
-    current_x += seg_w
+cx = 110
+cy = 135
+r = 62
+stroke_width = 18
+circ = 2 * math.pi * r
 
-col1 = lang_data[:6]
-col2 = lang_data[6:]
+slices = []
+offset = 0.0
+
+for item in data:
+    length = (item["pct"] / 100.0) * circ
+    dasharray = f"{length:.2f} {circ - length:.2f}"
+    dashoffset = f"{-offset:.2f}"
+    slices.append(
+        f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{item["color"]}" stroke-width="{stroke_width}" '
+        f'stroke-dasharray="{dasharray}" stroke-dashoffset="{dashoffset}" transform="rotate(-90 {cx} {cy})" />'
+    )
+    offset += length
+
+col1 = data[:6]
+col2 = data[6:]
 
 col1_svg = []
-y_start = 104
-y_gap = 23
+col2_svg = []
+
+y_start = 75
+y_gap = 25
 
 for i, item in enumerate(col1):
     y = y_start + (i * y_gap)
     label = f"{item['count']} repos"
     col1_svg.append(f'''
-    <g transform="translate(30, {y})">
-      <circle cx="5" cy="5" r="5" fill="{item['color']}" />
-      <text x="18" y="9" class="lang-name">{item['name']}</text>
-      <text x="145" y="9" class="lang-count">{label}</text>
-      <text x="210" y="9" class="lang-pct">{item['pct']:.1f}%</text>
+    <g transform="translate(230, {y})">
+      <circle cx="5" cy="5" r="4.5" fill="{item['color']}" />
+      <text x="16" y="9" class="lang-name">{item['name']}</text>
+      <text x="110" y="9" class="lang-count">{label}</text>
+      <text x="150" y="9" class="lang-pct">{item['pct']:.1f}%</text>
     </g>''')
 
-col2_svg = []
 for i, item in enumerate(col2):
     y = y_start + (i * y_gap)
     label = f"{item['count']} repo" if item['count'] == 1 else f"{item['count']} repos"
     col2_svg.append(f'''
-    <g transform="translate(275, {y})">
-      <circle cx="5" cy="5" r="5" fill="{item['color']}" />
-      <text x="18" y="9" class="lang-name">{item['name']}</text>
-      <text x="145" y="9" class="lang-count">{label}</text>
-      <text x="210" y="9" class="lang-pct">{item['pct']:.1f}%</text>
+    <g transform="translate(390, {y})">
+      <circle cx="5" cy="5" r="4.5" fill="{item['color']}" />
+      <text x="16" y="9" class="lang-name">{item['name']}</text>
+      <text x="95" y="9" class="lang-count">{label}</text>
+      <text x="135" y="9" class="lang-pct">{item['pct']:.1f}%</text>
     </g>''')
 
 svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .header {{ font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }}
-    .sub {{ font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }}
-    .lang-name {{ font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }}
-    .lang-count {{ font: 400 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }}
-    .lang-pct {{ font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }}
+    .header {{ font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }}
+    .sub {{ font: 500 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }}
+    .lang-name {{ font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }}
+    .lang-count {{ font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }}
+    .lang-pct {{ font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }}
+    .donut-bg {{ stroke: #21262d; }}
+    .donut-icon {{ fill: #8b949e; }}
   </style>
   <rect width="{width}" height="{height}" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1" />
   
   <!-- Header -->
-  <text x="30" y="38" class="header">Most Used Languages</text>
-  <text x="{width - 30}" y="38" class="sub" text-anchor="end">All {total_repos} Repositories</text>
+  <text x="28" y="36" class="header">Most Used Languages</text>
+  <text x="{width - 28}" y="36" class="sub" text-anchor="end">Private Repositories</text>
+
+  <!-- Donut Chart -->
+  <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="#21262d" stroke-width="{stroke_width}" />
+  {''.join(slices)}
   
-  <!-- Progress Bar Container -->
-  <clipPath id="bar-clip">
-    <rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="{bar_height}" rx="{rx}" />
-  </clipPath>
-  
-  <rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="{bar_height}" rx="{rx}" fill="#21262d" />
-  <g clip-path="url(#bar-clip)">
-    {''.join(progress_rects)}
+  <!-- Donut Center Icon (Code / Shield) -->
+  <g transform="translate({cx - 14}, {cy - 14})">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="16 18 22 12 16 6"></polyline>
+      <polyline points="8 6 2 12 8 18"></polyline>
+    </svg>
   </g>
-  
-  <!-- Language List -->
+
+  <!-- Legend Columns -->
   {''.join(col1_svg)}
   {''.join(col2_svg)}
 </svg>
@@ -139,4 +151,4 @@ svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" 
 output_path = os.path.join(os.path.dirname(__file__), "..", "languages.svg")
 with open(output_path, "w") as f:
     f.write(svg)
-print("Updated scripts/generate_langs.py successfully!")
+print("Updated scripts/generate_langs.py to circular donut UI successfully!")
