@@ -11,7 +11,25 @@
   </a>
 </p>
 
-🌍 **TryHackMe Global Rank:** Top 1% (#542) &nbsp;|&nbsp; 🏆 **Completed Rooms:** 759+ &nbsp;|&nbsp; 🎖️ **Badges:** 99
+<p align="center">
+  🌍 <b>TryHackMe Global Rank:</b> Top 1% (<code>#542</code>) &nbsp;|&nbsp; 🏆 <b>Completed Rooms:</b> <code>759+</code> &nbsp;|&nbsp; 🎖️ <b>Total Badges:</b> <code>99</code>
+</p>
+
+<p align="center">
+  <a href="https://tryhackme.com/ugamit/badges/windcorp?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/windcorp.png" width="72" title="WindCorp Badge" alt="WindCorp" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/ugamit/badges/redteamcapstone?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/redteamcapstone.png" width="72" title="Red Team Capstone Badge" alt="Red Team Capstone" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/burpsuite.png" width="72" title="Burp Suite Badge" alt="Burp Suite" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/cyberthreatintel.png" width="72" title="Cyber Threat Intelligence" alt="Cyber Threat Intelligence" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/ugamit/badges/sapphire-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/sapphire-league.png" width="72" title="Sapphire League Badge" alt="Sapphire League" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/advancedelk.png" width="72" title="Advanced ELK Badge" alt="Advanced ELK" /></a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/ugamit/badges/ruby-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/ruby-league.png" width="72" title="Ruby League Badge" alt="Ruby League" /></a>
+</p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" width="28" style="vertical-align:middle"/> Tech Stack
 
