@@ -3,7 +3,7 @@
 ![Software Developer](https://img.shields.io/badge/Software%20Developer-0D6EFD?style=for-the-badge&logo=github&logoColor=white) ![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-C0392B?style=for-the-badge&logo=hackthebox&logoColor=white) ![Telegram Influencer](https://img.shields.io/badge/Telegram%20Influencer-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) ![UGAmit](https://img.shields.io/badge/UGAmit-8E44AD?style=for-the-badge)
 
 ## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f310.png" width="24" style="vertical-align:middle"/> Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/FBw3Xh4qdK) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eternal.amit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-dutta-5169022ab/) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=LeetCode&logoColor=black)](https://leetcode.com/u/IBETU/)
 
 ![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/ugamit.png)
 
@@ -26,6 +26,35 @@
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=for-the-badge&logo=gnu&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell%20Script-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements & Badges:
+
+<p align="center">
+  <a href="https://leetcode.com/u/IBETU/">
+    <img src="https://leetcard.jacoblin.cool/IBETU?theme=dark&font=Karma" alt="LeetCode Stats" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="85" title="1000 Days Badge" alt="1000 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="85" title="500 Days Badge" alt="500 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="85" title="365 Days Badge" alt="365 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="85" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="85" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/200_1080_1080.png" width="75" title="200 Days Badge 2026" alt="200 Days Badge 2026" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" width="75" title="100 Days Badge 2026" alt="100 Days Badge 2026" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" width="75" title="50 Days Badge 2026" alt="50 Days Badge 2026" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg200.png" width="75" title="200 Days Badge 2025" alt="200 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg25100.png" width="75" title="100 Days Badge 2025" alt="100 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg2550.png" width="75" title="50 Days Badge 2025" alt="50 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-200-lg.png" width="75" title="200 Days Badge 2024" alt="200 Days Badge 2024" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="75" title="100 Days Badge 2024" alt="100 Days Badge 2024" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="75" title="50 Days Badge 2024" alt="50 Days Badge 2024" /></a>
+</p>
+
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=koderguru&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=koderguru&theme=dark&hide_border=false)<br/>
@@ -33,6 +62,3 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Ugamit&icon=0&color=0)](https://visitcount.itsvg.in)
-
-
-
