@@ -27,7 +27,7 @@
 ![Shell Script](https://img.shields.io/badge/Shell%20Script-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements & Badges (48 Badges):
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements:
 
 <p align="center">
   <a href="https://leetcode.com/u/IBETU/">
@@ -35,84 +35,18 @@
   </a>
 </p>
 
-### 🏆 Milestones & Annual Badges
 <p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="90" title="1000 Days Badge" alt="1000 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="90" title="500 Days Badge" alt="500 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="90" title="365 Days Badge" alt="365 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="90" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="90" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
-</p>
-
-### ⚡ Streak Badges (50 / 100 / 200 Days)
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/200_1080_1080.png" width="75" title="200 Days Badge 2026" alt="200 Days Badge 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" width="75" title="100 Days Badge 2026" alt="100 Days Badge 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" width="75" title="50 Days Badge 2026" alt="50 Days Badge 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg200.png" width="75" title="200 Days Badge 2025" alt="200 Days Badge 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg25100.png" width="75" title="100 Days Badge 2025" alt="100 Days Badge 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/lg2550.png" width="75" title="50 Days Badge 2025" alt="50 Days Badge 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-200-lg.png" width="75" title="200 Days Badge 2024" alt="200 Days Badge 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="75" title="100 Days Badge 2024" alt="100 Days Badge 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="75" title="50 Days Badge 2024" alt="50 Days Badge 2024" /></a>
-</p>
-
-### 🗓️ Monthly LeetCoding Challenge Badges
-
-#### 2026
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-1.png" width="65" title="Jan 2026 LeetCoding Challenge" alt="Jan 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-2.png" width="65" title="Feb 2026 LeetCoding Challenge" alt="Feb 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-3.png" width="65" title="Mar 2026 LeetCoding Challenge" alt="Mar 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-4.png" width="65" title="Apr 2026 LeetCoding Challenge" alt="Apr 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-5.png" width="65" title="May 2026 LeetCoding Challenge" alt="May 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-6.png" width="65" title="Jun 2026 LeetCoding Challenge" alt="Jun 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-7.png" width="65" title="Jul 2026 LeetCoding Challenge" alt="Jul 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-8.png" width="65" title="Aug 2026 LeetCoding Challenge" alt="Aug 2026" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2026-9.png" width="65" title="Sep 2026 LeetCoding Challenge" alt="Sep 2026" /></a>
-</p>
-
-#### 2025
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-1.png" width="65" title="Jan 2025 LeetCoding Challenge" alt="Jan 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-2.png" width="65" title="Feb 2025 LeetCoding Challenge" alt="Feb 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-3.png" width="65" title="Mar 2025 LeetCoding Challenge" alt="Mar 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-4.png" width="65" title="Apr 2025 LeetCoding Challenge" alt="Apr 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-5.png" width="65" title="May 2025 LeetCoding Challenge" alt="May 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-6.png" width="65" title="Jun 2025 LeetCoding Challenge" alt="Jun 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-7.png" width="65" title="Jul 2025 LeetCoding Challenge" alt="Jul 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-8.png" width="65" title="Aug 2025 LeetCoding Challenge" alt="Aug 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-9.png" width="65" title="Sep 2025 LeetCoding Challenge" alt="Sep 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-10.png" width="65" title="Oct 2025 LeetCoding Challenge" alt="Oct 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-11.png" width="65" title="Nov 2025 LeetCoding Challenge" alt="Nov 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2025-12.png" width="65" title="Dec 2025 LeetCoding Challenge" alt="Dec 2025" /></a>
-</p>
-
-#### 2024
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-1.png" width="65" title="Jan 2024 LeetCoding Challenge" alt="Jan 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-2.png" width="65" title="Feb 2024 LeetCoding Challenge" alt="Feb 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-3.png" width="65" title="Mar 2024 LeetCoding Challenge" alt="Mar 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-4.png" width="65" title="Apr 2024 LeetCoding Challenge" alt="Apr 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-5.png" width="65" title="May 2024 LeetCoding Challenge" alt="May 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-6.png" width="65" title="Jun 2024 LeetCoding Challenge" alt="Jun 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-7.png" width="65" title="Jul 2024 LeetCoding Challenge" alt="Jul 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-8.png" width="65" title="Aug 2024 LeetCoding Challenge" alt="Aug 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-9.png" width="65" title="Sep 2024 LeetCoding Challenge" alt="Sep 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-10.png" width="65" title="Oct 2024 LeetCoding Challenge" alt="Oct 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-11.png" width="65" title="Nov 2024 LeetCoding Challenge" alt="Nov 2024" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2024-12.png" width="65" title="Dec 2024 LeetCoding Challenge" alt="Dec 2024" /></a>
-</p>
-
-#### 2023
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcode.com/static/images/badges/dcc-2023-12.png" width="65" title="Dec 2023 LeetCoding Challenge" alt="Dec 2023" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="70" title="1000 Days Badge" alt="1000 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="70" title="500 Days Badge" alt="500 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="70" title="365 Days Badge" alt="365 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="70" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="70" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
 </p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=koderguru&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=koderguru&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=koderguru&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://raw.githubusercontent.com/Koderguru/Koderguru/main/languages.svg)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Ugamit&icon=0&color=0)](https://visitcount.itsvg.in)
