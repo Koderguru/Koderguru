@@ -25,7 +25,7 @@
 <p align="center">
   <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/wreath.png" width="65" title="Wreath Network Pentesting Badge" alt="Wreath" /></a>
   &nbsp;&nbsp;
-  <a href="https://tryhackme.com/ugamit/badges/windcorp?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/windcorp.png" width="65" title="WindCorp Badge" alt="WindCorp" /></a>
+  <a href="https://tryhackme.com/ugamit/badges/sapphire-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/sapphire-league.png" width="65" title="Sapphire League Badge" alt="Sapphire League" /></a>
   &nbsp;&nbsp;
   <a href="https://tryhackme.com/ugamit/badges/redteamcapstone?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/redteamcapstone.png" width="65" title="Red Team Capstone Badge" alt="Red Team Capstone" /></a>
   &nbsp;&nbsp;
@@ -33,7 +33,7 @@
   &nbsp;&nbsp;
   <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/cyberthreatintel.png" width="65" title="Cyber Threat Intelligence" alt="Cyber Threat Intelligence" /></a>
   &nbsp;&nbsp;
-  <a href="https://tryhackme.com/ugamit/badges/sapphire-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/sapphire-league.png" width="65" title="Sapphire League Badge" alt="Sapphire League" /></a>
+  <a href="https://tryhackme.com/ugamit/badges/windcorp?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=66112c0e99183dccced165a9" target="_blank"><img src="./thm-badges/windcorp.png" width="65" title="WindCorp Badge" alt="WindCorp" /></a>
   &nbsp;&nbsp;
   <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/advancedelk.png" width="65" title="Advanced ELK Badge" alt="Advanced ELK" /></a>
   &nbsp;&nbsp;
