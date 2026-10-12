@@ -30,17 +30,13 @@
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements:
 
 <p align="center">
-  <a href="https://leetcode.com/u/IBETU/">
-    <img src="https://leetcard.jacoblin.cool/IBETU?theme=dark&font=Karma" alt="LeetCode Stats" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="70" title="1000 Days Badge" alt="1000 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="70" title="500 Days Badge" alt="500 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="70" title="365 Days Badge" alt="365 Days Badge" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="70" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
-  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="70" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://leetcard.jacoblin.cool/IBETU?theme=dark&font=Karma" height="175" align="middle" alt="LeetCode Stats" /></a>
+  &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg1k.png" width="58" align="middle" title="1000 Days Badge" alt="1000 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg500.png" width="58" align="middle" title="500 Days Badge" alt="500 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/lg365.png" width="58" align="middle" title="365 Days Badge" alt="365 Days Badge" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/others/2025_lg.png" width="58" align="middle" title="Annual Badge 2025" alt="Annual Badge 2025" /></a>
+  <a href="https://leetcode.com/u/IBETU/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-lg.png" width="58" align="middle" title="Annual Badge 2024" alt="Annual Badge 2024" /></a>
 </p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
