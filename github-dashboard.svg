@@ -1,0 +1,201 @@
+<svg width="880" height="320" viewBox="0 0 880 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients & Shadows for modern aesthetic -->
+    <linearGradient id="card-border" x1="0" y1="0" x2="880" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#1f6feb" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#1f6feb" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .header { font: 600 15.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; }
+    .sub-tag { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #8b949e; }
+    .card-val { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #f0f6fc; }
+    .card-sub { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #7d8590; }
+    .card-label { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #8b949e; }
+    .lang-name { font: 600 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #e6edf3; }
+    .lang-pct { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; text-anchor: end; }
+    .donut-main { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #f0f6fc; text-anchor: middle; }
+    .donut-sub { font: 600 8.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; letter-spacing: 1px; text-anchor: middle; }
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .box-bottom { fill: #11161d; stroke: #21262d; stroke-width: 1; }
+  </style>
+
+  <!-- Outer Card Frame with subtle gradient border -->
+  <rect width="880" height="320" rx="14" fill="#0d1117" stroke="url(#card-border)" stroke-width="1.2" />
+
+  <!-- Divider Line -->
+  <line x1="395" y1="20" x2="395" y2="300" stroke="#21262d" stroke-width="1" stroke-dasharray="3 3" />
+
+  <!-- ================= LEFT: STATS & PRIVATE METRICS ================= -->
+  <!-- Left Header -->
+  <g transform="translate(28, 36)">
+    <!-- Octicon Activity / Flame Favicon -->
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff">
+      <path d="M8 0c-.3 0-.6.1-.8.4C6 1.7 4 4.5 4 7.5 4 10 5.8 12 8 12s4-2 4-4.5c0-3-2-5.8-3.2-7.1-.2-.3-.5-.4-.8-.4zM8 10.5c-1.4 0-2.5-1.1-2.5-2.5 0-1.8 1.4-3.8 2.5-5 1.1 1.2 2.5 3.2 2.5 5 0 1.4-1.1 2.5-2.5 2.5z"/>
+    </svg>
+    <text x="24" y="13" class="header">GitHub Activity &amp; Stats</text>
+    <text x="340" y="13" class="sub-tag" text-anchor="end">90+ Pvt Repos</text>
+  </g>
+
+  <!-- 4 Stats Cards (2x2 Grid) -->
+  <!-- 1. Total Contributions -->
+  <rect x="28" y="65" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(42, 85)">
+    <!-- Favicon: Git Commit / Activity -->
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#3fb950" stroke-width="1.8">
+      <circle cx="8" cy="8" r="3"/>
+      <line x1="1" y1="8" x2="5" y2="8"/>
+      <line x1="11" y1="8" x2="15" y2="8"/>
+    </svg>
+    <text x="24" y="13" class="card-val">617</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">500+ Pvt</text>
+    <text x="0" y="44" class="card-label">Total Contributions</text>
+  </g>
+
+  <!-- 2. Repositories (90+ Pvt Repos) -->
+  <rect x="203" y="65" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(217, 85)">
+    <!-- Favicon: Book / Repository -->
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.8">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0-.75.75v1.25H4.5A2.5 2.5 0 0 1 2 13.5v-11zm2.5 11h5.5V1.5H4.5A1 1 0 0 0 3.5 2.5v11a1 1 0 0 0 1 1z"/>
+    </svg>
+    <text x="24" y="13" class="card-val">90+</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">Pvt Repos</text>
+    <text x="0" y="44" class="card-label">Repositories</text>
+  </g>
+
+  <!-- 3. Stars Earned -->
+  <rect x="28" y="153" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(42, 173)">
+    <!-- Favicon: Star -->
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#e3b341" stroke-width="1.8">
+      <polygon points="8 1.5 10.1 5.8 14.8 6.5 11.4 9.8 12.2 14.5 8 12.3 3.8 14.5 4.6 9.8 1.2 6.5 5.9 5.8 8 1.5"/>
+    </svg>
+    <text x="24" y="13" class="card-val">54</text>
+    <text x="0" y="44" class="card-label">Stars Earned</text>
+  </g>
+
+  <!-- 4. Pull Requests -->
+  <rect x="203" y="153" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(217, 173)">
+    <!-- Favicon: Git Pull Request -->
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#a371f7" stroke-width="1.8">
+      <circle cx="12" cy="12" r="2"/>
+      <circle cx="4" cy="4" r="2"/>
+      <path d="M4 6v8M12 10V8a2 2 0 0 0-2-2H4"/>
+    </svg>
+    <text x="24" y="13" class="card-val">19</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">3 Issues</text>
+    <text x="0" y="44" class="card-label">Pull Requests</text>
+  </g>
+
+  <!-- Bottom Highlight Strip -->
+  <rect x="28" y="243" width="340" height="48" rx="8" class="box-bottom" />
+  <g transform="translate(44, 272)">
+    <!-- Favicon: Terminal / Commit -->
+    <svg x="0" y="-12" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.6">
+      <polyline points="4 6 7 9 4 12"/>
+      <line x1="9" y1="12" x2="13" y2="12"/>
+    </svg>
+    <text x="20" y="0" class="card-label">Year Commits: <tspan fill="#f0f6fc" font-weight="700">79</tspan></text>
+    
+    <!-- Favicon: Zap / Streak -->
+    <svg x="170" y="-12" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#f0883e" stroke-width="1.6">
+      <polygon points="9 1 3 9 8 9 7 15 13 7 8 7 9 1"/>
+    </svg>
+    <text x="190" y="0" class="card-label">Longest Streak: <tspan fill="#f0f6fc" font-weight="700">8 Days</tspan></text>
+  </g>
+
+  <!-- ================= RIGHT: MODERN CIRCULAR LANGUAGES ================= -->
+  <!-- Right Header -->
+  <g transform="translate(425, 36)">
+    <!-- Favicon: Code bracket -->
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.8">
+      <polyline points="5 4 1 8 5 12"/>
+      <polyline points="11 4 15 8 11 12"/>
+    </svg>
+    <text x="24" y="13" class="header">Most Used Languages</text>
+    <text x="420" y="13" class="sub-tag" text-anchor="end">90+ Pvt Repos</text>
+  </g>
+
+  <!-- Circular Donut Track Background -->
+  <circle cx="495" cy="180" r="58" fill="none" stroke="#161b22" stroke-width="14" />
+  
+  <!-- Modern Segmented Donut Slices -->
+  <circle cx="495" cy="180" r="58" fill="none" stroke="#3178c6" stroke-width="14" stroke-dasharray="92.83 271.59" stroke-dashoffset="-0.00" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#f1e05a" stroke-width="14" stroke-dasharray="48.14 316.29" stroke-dashoffset="-94.83" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#e34c26" stroke-width="14" stroke-dasharray="41.26 323.17" stroke-dashoffset="-144.97" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#A97BFF" stroke-width="14" stroke-dasharray="34.38 330.04" stroke-dashoffset="-188.23" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#3572A5" stroke-width="14" stroke-dasharray="24.07 340.36" stroke-dashoffset="-224.61" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#563d7c" stroke-width="14" stroke-dasharray="24.07 340.36" stroke-dashoffset="-250.68" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#F05138" stroke-width="14" stroke-dasharray="3.44 360.99" stroke-dashoffset="-276.75" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#00B4AB" stroke-width="14" stroke-dasharray="3.44 360.99" stroke-dashoffset="-282.19" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#00ADD8" stroke-width="14" stroke-dasharray="3.44 360.99" stroke-dashoffset="-287.62" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#f34b7d" stroke-width="14" stroke-dasharray="3.44 360.99" stroke-dashoffset="-293.06" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#427819" stroke-width="14" stroke-dasharray="3.44 360.99" stroke-dashoffset="-298.50" transform="rotate(-90 495 180)" /><circle cx="495" cy="180" r="58" fill="none" stroke="#6e7681" stroke-width="14" stroke-dasharray="55.01 309.41" stroke-dashoffset="-303.94" transform="rotate(-90 495 180)" />
+
+  <!-- Modern Donut Center Display -->
+  <circle cx="495" cy="180" r="45" fill="#0d1117" />
+  <text x="495" y="182" class="donut-main">90+</text>
+  <text x="495" y="197" class="donut-sub">PVT REPOS</text>
+
+  <!-- Clean Language Legend (Name + Percentage ONLY) -->
+  
+    <g transform="translate(585, 96)">
+      <circle cx="5" cy="5" r="4.5" fill="#3178c6" />
+      <text x="16" y="9" class="lang-name">TypeScript</text>
+      <text x="125" y="9" class="lang-pct">27.3%</text>
+    </g>
+    <g transform="translate(585, 122)">
+      <circle cx="5" cy="5" r="4.5" fill="#f1e05a" />
+      <text x="16" y="9" class="lang-name">JavaScript</text>
+      <text x="125" y="9" class="lang-pct">14.1%</text>
+    </g>
+    <g transform="translate(585, 148)">
+      <circle cx="5" cy="5" r="4.5" fill="#e34c26" />
+      <text x="16" y="9" class="lang-name">HTML</text>
+      <text x="125" y="9" class="lang-pct">12.1%</text>
+    </g>
+    <g transform="translate(585, 174)">
+      <circle cx="5" cy="5" r="4.5" fill="#A97BFF" />
+      <text x="16" y="9" class="lang-name">Kotlin</text>
+      <text x="125" y="9" class="lang-pct">10.1%</text>
+    </g>
+    <g transform="translate(585, 200)">
+      <circle cx="5" cy="5" r="4.5" fill="#3572A5" />
+      <text x="16" y="9" class="lang-name">Python</text>
+      <text x="125" y="9" class="lang-pct">7.1%</text>
+    </g>
+    <g transform="translate(585, 226)">
+      <circle cx="5" cy="5" r="4.5" fill="#563d7c" />
+      <text x="16" y="9" class="lang-name">CSS</text>
+      <text x="125" y="9" class="lang-pct">7.1%</text>
+    </g>
+  
+    <g transform="translate(735, 96)">
+      <circle cx="5" cy="5" r="4.5" fill="#F05138" />
+      <text x="16" y="9" class="lang-name">Swift</text>
+      <text x="120" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(735, 122)">
+      <circle cx="5" cy="5" r="4.5" fill="#00B4AB" />
+      <text x="16" y="9" class="lang-name">Dart</text>
+      <text x="120" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(735, 148)">
+      <circle cx="5" cy="5" r="4.5" fill="#00ADD8" />
+      <text x="16" y="9" class="lang-name">Go</text>
+      <text x="120" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(735, 174)">
+      <circle cx="5" cy="5" r="4.5" fill="#f34b7d" />
+      <text x="16" y="9" class="lang-name">C++</text>
+      <text x="120" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(735, 200)">
+      <circle cx="5" cy="5" r="4.5" fill="#427819" />
+      <text x="16" y="9" class="lang-name">Makefile</text>
+      <text x="120" y="9" class="lang-pct">1.0%</text>
+    </g>
+    <g transform="translate(735, 226)">
+      <circle cx="5" cy="5" r="4.5" fill="#6e7681" />
+      <text x="16" y="9" class="lang-name">Other/Data</text>
+      <text x="120" y="9" class="lang-pct">16.2%</text>
+    </g>
+</svg>

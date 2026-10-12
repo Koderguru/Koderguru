@@ -1,6 +1,5 @@
 import math, json, subprocess
 
-# 1. Fetch GitHub metrics
 query = """
 query {
   viewer {
@@ -48,19 +47,17 @@ data = json.loads(res)["data"]["viewer"]
 
 cc = data["contributionsCollection"]
 cal = cc["contributionCalendar"]
-total_contribs = cal["totalContributions"] # 617
-private_contribs = cc["restrictedContributionsCount"] # 500
-commits = cc["totalCommitContributions"] # 79
-prs = data["pullRequests"]["totalCount"] # 19
-issues = data["issues"]["totalCount"] # 3
+total_contribs = cal["totalContributions"]
+private_contribs = cc["restrictedContributionsCount"]
+commits = cc["totalCommitContributions"]
+prs = data["pullRequests"]["totalCount"]
+issues = data["issues"]["totalCount"]
 
 repos_nodes = data["repositories"]["nodes"]
-total_repos = len(repos_nodes) # 99
-private_repos = sum(1 for r in repos_nodes if r["isPrivate"]) # 83
-public_repos = total_repos - private_repos # 16
-stars = sum(r["stargazerCount"] for r in repos_nodes) # 54
+total_repos = len(repos_nodes)
+private_repos = sum(1 for r in repos_nodes if r["isPrivate"])
+stars = sum(r["stargazerCount"] for r in repos_nodes)
 
-# Streak calculation
 days = []
 for w in cal["weeks"]:
     for d in w["contributionDays"]:
@@ -76,14 +73,6 @@ for date, count in days:
     else:
         temp_streak = 0
 
-current_streak = 0
-for date, count in reversed(days):
-    if count > 0:
-        current_streak += 1
-    else:
-        break
-
-# Language breakdown
 lang_counts = {}
 for r in repos_nodes:
     pl = r.get("primaryLanguage")
@@ -111,163 +100,194 @@ display_order = [
     "Go", "C++", "Makefile", "Other/Data"
 ]
 
-lang_data = []
+data_langs = []
 for name in display_order:
     cnt = lang_counts.get(name, 0)
     if cnt > 0:
         pct = (cnt / total_repos) * 100
         color = colors.get(name, "#8b949e")
-        lang_data.append({
+        data_langs.append({
             "name": name,
-            "count": cnt,
             "pct": pct,
             "color": color
         })
 
-# Donut geometry
-cx = 505
-cy = 185
-r = 56
-stroke_width = 16
+width = 880
+height = 320
+
+cx = 495
+cy = 180
+r = 58
+stroke_width = 14
 circ = 2 * math.pi * r
+
+gap = 2.0
+num_segments = len(data_langs)
+total_gap = gap * num_segments
+available_circ = circ - total_gap
 
 slices = []
 offset = 0.0
-for item in lang_data:
-    length = (item["pct"] / 100.0) * circ
-    dasharray = f"{length:.2f} {circ - length:.2f}"
+
+for item in data_langs:
+    seg_len = (item["pct"] / 100.0) * available_circ
+    if seg_len < 1.0:
+        seg_len = 1.0
+    dasharray = f"{seg_len:.2f} {circ - seg_len:.2f}"
     dashoffset = f"{-offset:.2f}"
     slices.append(
         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{item["color"]}" stroke-width="{stroke_width}" '
         f'stroke-dasharray="{dasharray}" stroke-dashoffset="{dashoffset}" transform="rotate(-90 {cx} {cy})" />'
     )
-    offset += length
+    offset += (seg_len + gap)
 
-# Legend
-col1 = lang_data[:6]
-col2 = lang_data[6:]
+col1 = data_langs[:6]
+col2 = data_langs[6:]
 
 col1_svg = []
 col2_svg = []
-y_start = 100
+y_start = 96
 y_gap = 26
 
 for i, item in enumerate(col1):
     y = y_start + (i * y_gap)
-    label = f"{item['count']} repos"
     col1_svg.append(f'''
-    <g transform="translate(600, {y})">
+    <g transform="translate(585, {y})">
       <circle cx="5" cy="5" r="4.5" fill="{item['color']}" />
       <text x="16" y="9" class="lang-name">{item['name']}</text>
-      <text x="110" y="9" class="lang-count">{label}</text>
-      <text x="155" y="9" class="lang-pct">{item['pct']:.1f}%</text>
+      <text x="125" y="9" class="lang-pct">{item['pct']:.1f}%</text>
     </g>''')
 
 for i, item in enumerate(col2):
     y = y_start + (i * y_gap)
-    label = f"{item['count']} repo" if item['count'] == 1 else f"{item['count']} repos"
     col2_svg.append(f'''
-    <g transform="translate(775, {y})">
+    <g transform="translate(735, {y})">
       <circle cx="5" cy="5" r="4.5" fill="{item['color']}" />
       <text x="16" y="9" class="lang-name">{item['name']}</text>
-      <text x="95" y="9" class="lang-count">{label}</text>
-      <text x="140" y="9" class="lang-pct">{item['pct']:.1f}%</text>
+      <text x="120" y="9" class="lang-pct">{item['pct']:.1f}%</text>
     </g>''')
 
-width = 940
-height = 320
-
 svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card-border" x1="0" y1="0" x2="{width}" y2="{height}" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#1f6feb" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+  </defs>
+
   <style>
-    .header {{ font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; }}
-    .sub {{ font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }}
-    .card-val {{ font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #f0f6fc; }}
-    .card-sub {{ font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #7d8590; }}
-    .card-label {{ font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }}
-    .lang-name {{ font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; }}
-    .lang-count {{ font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: end; }}
-    .lang-pct {{ font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #58a6ff; text-anchor: end; }}
+    .header {{ font: 600 15.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; }}
+    .sub-tag {{ font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #8b949e; }}
+    .card-val {{ font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #f0f6fc; }}
+    .card-sub {{ font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #7d8590; }}
+    .card-label {{ font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #8b949e; }}
+    .lang-name {{ font: 600 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #e6edf3; }}
+    .lang-pct {{ font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; text-anchor: end; }}
+    .donut-main {{ font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #f0f6fc; text-anchor: middle; }}
+    .donut-sub {{ font: 600 8.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif; fill: #58a6ff; letter-spacing: 1px; text-anchor: middle; }}
     .box {{ fill: #161b22; stroke: #30363d; stroke-width: 1; }}
+    .box-bottom {{ fill: #11161d; stroke: #21262d; stroke-width: 1; }}
   </style>
 
-  <!-- Outer Card Frame -->
-  <rect width="{width}" height="{height}" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <rect width="{width}" height="{height}" rx="14" fill="#0d1117" stroke="url(#card-border)" stroke-width="1.2" />
+  <line x1="395" y1="20" x2="395" y2="{height - 20}" stroke="#21262d" stroke-width="1" stroke-dasharray="3 3" />
 
-  <!-- Vertical Divider -->
-  <line x1="415" y1="20" x2="415" y2="{height - 20}" stroke="#21262d" stroke-width="1.5" stroke-dasharray="4 4" />
-
-  <!-- ================= LEFT PANEL: GITHUB STATS & CONTRIBUTIONS ================= -->
-  <!-- Left Header -->
-  <g transform="translate(28, 38)">
-    <circle cx="8" cy="8" r="8" fill="#238636" fill-opacity="0.2" />
-    <circle cx="8" cy="8" r="4" fill="#3fb950" />
+  <!-- LEFT PANEL -->
+  <g transform="translate(28, 36)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff">
+      <path d="M8 0c-.3 0-.6.1-.8.4C6 1.7 4 4.5 4 7.5 4 10 5.8 12 8 12s4-2 4-4.5c0-3-2-5.8-3.2-7.1-.2-.3-.5-.4-.8-.4zM8 10.5c-1.4 0-2.5-1.1-2.5-2.5 0-1.8 1.4-3.8 2.5-5 1.1 1.2 2.5 3.2 2.5 5 0 1.4-1.1 2.5-2.5 2.5z"/>
+    </svg>
     <text x="24" y="13" class="header">GitHub Activity &amp; Stats</text>
-    <text x="360" y="13" class="sub" text-anchor="end">Private &amp; Public Active</text>
+    <text x="340" y="13" class="sub-tag" text-anchor="end">90+ Pvt Repos</text>
   </g>
 
-  <!-- 4 Metric Cards (2x2 Grid) -->
-  <!-- Card 1: Total Contributions -->
-  <rect x="28" y="70" width="175" height="80" rx="10" class="box" />
-  <g transform="translate(42, 92)">
-    <text x="0" y="12" class="card-val">{total_contribs}</text>
-    <text x="60" y="12" class="card-sub">({private_contribs} private)</text>
-    <text x="0" y="42" class="card-label">🔥 Total Contributions</text>
+  <!-- 1. Total Contributions -->
+  <rect x="28" y="65" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(42, 85)">
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#3fb950" stroke-width="1.8">
+      <circle cx="8" cy="8" r="3"/>
+      <line x1="1" y1="8" x2="5" y2="8"/>
+      <line x1="11" y1="8" x2="15" y2="8"/>
+    </svg>
+    <text x="24" y="13" class="card-val">{total_contribs}</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">500+ Pvt</text>
+    <text x="0" y="44" class="card-label">Total Contributions</text>
   </g>
 
-  <!-- Card 2: Repositories -->
-  <rect x="215" y="70" width="175" height="80" rx="10" class="box" />
-  <g transform="translate(229, 92)">
-    <text x="0" y="12" class="card-val">{total_repos}</text>
-    <text x="40" y="12" class="card-sub">({private_repos} private)</text>
-    <text x="0" y="42" class="card-label">📦 Total Repositories</text>
+  <!-- 2. Repositories -->
+  <rect x="203" y="65" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(217, 85)">
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.8">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0-.75.75v1.25H4.5A2.5 2.5 0 0 1 2 13.5v-11zm2.5 11h5.5V1.5H4.5A1 1 0 0 0 3.5 2.5v11a1 1 0 0 0 1 1z"/>
+    </svg>
+    <text x="24" y="13" class="card-val">90+</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">Pvt Repos</text>
+    <text x="0" y="44" class="card-label">Repositories</text>
   </g>
 
-  <!-- Card 3: Stars Earned -->
-  <rect x="28" y="162" width="175" height="80" rx="10" class="box" />
-  <g transform="translate(42, 184)">
-    <text x="0" y="12" class="card-val">{stars}</text>
-    <text x="0" y="42" class="card-label">⭐ Total Stars Earned</text>
+  <!-- 3. Stars -->
+  <rect x="28" y="153" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(42, 173)">
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#e3b341" stroke-width="1.8">
+      <polygon points="8 1.5 10.1 5.8 14.8 6.5 11.4 9.8 12.2 14.5 8 12.3 3.8 14.5 4.6 9.8 1.2 6.5 5.9 5.8 8 1.5"/>
+    </svg>
+    <text x="24" y="13" class="card-val">{stars}</text>
+    <text x="0" y="44" class="card-label">Stars Earned</text>
   </g>
 
-  <!-- Card 4: Pull Requests -->
-  <rect x="215" y="162" width="175" height="80" rx="10" class="box" />
-  <g transform="translate(229, 184)">
-    <text x="0" y="12" class="card-val">{prs}</text>
-    <text x="35" y="12" class="card-sub">({issues} issues)</text>
-    <text x="0" y="42" class="card-label">🔀 Pull Requests</text>
+  <!-- 4. Pull Requests -->
+  <rect x="203" y="153" width="165" height="78" rx="10" class="box" />
+  <g transform="translate(217, 173)">
+    <svg x="0" y="0" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="#a371f7" stroke-width="1.8">
+      <circle cx="12" cy="12" r="2"/>
+      <circle cx="4" cy="4" r="2"/>
+      <path d="M4 6v8M12 10V8a2 2 0 0 0-2-2H4"/>
+    </svg>
+    <text x="24" y="13" class="card-val">{prs}</text>
+    <text x="135" y="13" class="card-sub" text-anchor="end">{issues} Issues</text>
+    <text x="0" y="44" class="card-label">Pull Requests</text>
   </g>
 
-  <!-- Streak & Year Row at Bottom -->
-  <rect x="28" y="254" width="362" height="46" rx="8" class="box" />
-  <g transform="translate(42, 282)">
-    <text x="0" y="0" class="card-label">⚡ Year Commits: <tspan fill="#f0f6fc" font-weight="700">{commits}</tspan></text>
-    <text x="180" y="0" class="card-label">🏆 Longest Streak: <tspan fill="#f0f6fc" font-weight="700">{longest_streak} Days</tspan></text>
+  <!-- Bottom Streak Strip -->
+  <rect x="28" y="243" width="340" height="48" rx="8" class="box-bottom" />
+  <g transform="translate(44, 272)">
+    <svg x="0" y="-12" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.6">
+      <polyline points="4 6 7 9 4 12"/>
+      <line x1="9" y1="12" x2="13" y2="12"/>
+    </svg>
+    <text x="20" y="0" class="card-label">Year Commits: <tspan fill="#f0f6fc" font-weight="700">{commits}</tspan></text>
+    
+    <svg x="170" y="-12" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#f0883e" stroke-width="1.6">
+      <polygon points="9 1 3 9 8 9 7 15 13 7 8 7 9 1"/>
+    </svg>
+    <text x="190" y="0" class="card-label">Longest Streak: <tspan fill="#f0f6fc" font-weight="700">{longest_streak} Days</tspan></text>
   </g>
 
-  <!-- ================= RIGHT PANEL: MOST USED LANGUAGES (CIRCULAR) ================= -->
-  <!-- Right Header -->
-  <g transform="translate(440, 38)">
-    <text x="0" y="13" class="header">Most Used Languages</text>
-    <text x="475" y="13" class="sub" text-anchor="end">Private Repositories</text>
+  <!-- RIGHT PANEL -->
+  <g transform="translate(425, 36)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#58a6ff" stroke-width="1.8">
+      <polyline points="5 4 1 8 5 12"/>
+      <polyline points="11 4 15 8 11 12"/>
+    </svg>
+    <text x="24" y="13" class="header">Most Used Languages</text>
+    <text x="420" y="13" class="sub-tag" text-anchor="end">90+ Pvt Repos</text>
   </g>
 
-  <!-- Donut Chart -->
-  <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="#21262d" stroke-width="{stroke_width}" />
+  <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="#161b22" stroke-width="{stroke_width}" />
   {''.join(slices)}
-  
-  <!-- Donut Center Icon (Code Brackets) -->
-  <g transform="translate({cx}, {cy})">
-    <polyline points="3 8 9 2 3 -4" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-    <polyline points="-3 -4 -9 2 -3 8" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-  </g>
 
-  <!-- Language Legend Columns -->
+  <circle cx="{cx}" cy="{cy}" r="45" fill="#0d1117" />
+  <text x="{cx}" y="{cy + 2}" class="donut-main">90+</text>
+  <text x="{cx}" y="{cy + 17}" class="donut-sub">PVT REPOS</text>
+
   {''.join(col1_svg)}
   {''.join(col2_svg)}
 </svg>
 '''
 
-with open("/tmp/koderguru_repo/github-stats.svg", "w") as f:
+import os
+out_path = os.path.join(os.path.dirname(__file__), "..", "github-stats.svg")
+with open(out_path, "w") as f:
     f.write(svg)
-
-print("Generated all-in-one github-stats.svg successfully!")
+print("Updated scripts/generate_dashboard.py successfully!")

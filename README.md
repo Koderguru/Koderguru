@@ -46,7 +46,7 @@
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
 
 <p align="center">
-  <img src="./github-stats.svg" alt="GitHub Stats & Analytics" />
+  <img src="./github-dashboard.svg" alt="GitHub Stats & Analytics" />
 </p>
 
 ---
