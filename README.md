@@ -12,7 +12,14 @@
 </p>
 
 <p align="center">
-  🌍 <b>TryHackMe Global Rank:</b> Top 1% (<code>#542</code>) &nbsp;|&nbsp; 🏆 <b>Completed Rooms:</b> <code>759+</code> &nbsp;|&nbsp; 🎖️ <b>Total Badges:</b> <code>99</code>
+  <img src="./thm-favicon.png" width="18" height="18" style="vertical-align:middle" alt="TryHackMe" />
+  &nbsp;<b>TryHackMe Global Rank:</b> Top 1% (<code>#542</code>)
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="18" height="18" style="vertical-align:middle" alt="Trophy" />
+  &nbsp;<b>Completed Rooms:</b> <code>759+</code>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f396.png" width="18" height="18" style="vertical-align:middle" alt="Badges" />
+  &nbsp;<b>Total Badges:</b> <code>99</code>
 </p>
 
 <p align="center">
