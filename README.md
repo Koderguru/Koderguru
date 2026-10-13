@@ -22,11 +22,7 @@
 
 <br>
 
-<p align="center">
-  <a href="https://tryhackme.com/p/ugamit" target="_blank">
-    <img src="./tryhackme-dashboard.png" alt="TryHackMe Profile ugamit" width="100%" />
-  </a>
-</p>
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6e1.png" width="28" style="vertical-align:middle"/> TryHackMe Standing:
 
 <p align="center">
   <img src="./thm-favicon.png" width="18" height="18" style="vertical-align:middle" alt="TryHackMe" />
@@ -59,24 +55,6 @@
   <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="./thm-badges/lookup-champion.png" width="65" title="Lookup Champion Badge" alt="Lookup Champion" /></a>
 </p>
 
-# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" width="28" style="vertical-align:middle"/> Tech Stack
-
-![Skills](https://skillicons.dev/icons?i=c,java,kotlin,python,js,html,css,react,nextjs,flutter,androidstudio,firebase,gcp,cloudflare,heroku,vercel,figma,xd,ai,kali,swift,bash,php,mongodb,supabase,aws,postgres,mysql)
-
-![React Native](https://img.shields.io/badge/React%20Native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
-![Glitch](https://img.shields.io/badge/Glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white)
-![Adobe](https://img.shields.io/badge/Adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-%23FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-%231679A7.svg?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-%23008080.svg?style=for-the-badge&logo=nmap&logoColor=white)
-![Makefile](https://img.shields.io/badge/Makefile-427819?style=for-the-badge&logo=gnu&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell%20Script-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4dc.png" width="28" style="vertical-align:middle"/> Certifications:
 
 <p align="center">
@@ -108,11 +86,38 @@
   <a href="https://leetcode.com/u/decoderisback/"><img src="https://assets.leetcode.com/static_assets/marketing/lg2023.png" width="58" align="middle" title="Annual Badge 2023" alt="Annual Badge 2023" /></a>
 </p>
 
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" width="28" style="vertical-align:middle"/> Tech Stack:
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kali,linux,bash,python,c,cpp,docker,git,github" alt="Security & Systems" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,flutter,androidstudio,aws,gcp,firebase,postgres,mongodb,mysql" alt="Dev & Cloud" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Burp%20Suite-%23FF6633.svg?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Wireshark-%231679A7.svg?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Nmap-%23008080.svg?style=flat-square&logo=nmap&logoColor=white" alt="Nmap" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/React%20Native-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" alt="React Native" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=flat-square&logo=digitalOcean&logoColor=white" alt="DigitalOcean" />
+</p>
+
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="28" style="vertical-align:middle"/> GitHub Stats:
 
 <p align="center">
   <img src="./github-dashboard.svg" alt="GitHub Stats & Analytics" />
 </p>
 
----
-[![](https://visitcount.itsvg.in/api?id=Ugamit&icon=0&color=0)](https://visitcount.itsvg.in)
+<br>
+
+<p align="center">
+  <a href="https://visitcount.itsvg.in" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=koderguru&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  </a>
+</p>
