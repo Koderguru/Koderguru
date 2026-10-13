@@ -60,6 +60,24 @@
 ![Shell Script](https://img.shields.io/badge/Shell%20Script-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4dc.png" width="28" style="vertical-align:middle"/> Certifications:
+
+<p align="center">
+  <a href="https://labs.cyberwarfare.live/credential/certificate/687feb78bf373ee66a1848d4" target="_blank">
+    <img src="./certificates/crta-certificate.png" width="49%" alt="Certified Red Team Analyst (CRTA)" />
+  </a>
+  &nbsp;
+  <a href="https://portswigger.net/web-security/e/c/bdb2a223dd235409" target="_blank">
+    <img src="./certificates/bscp-certificate.png" width="49%" alt="Burp Suite Certified Practitioner (BSCP)" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.datacamp.com/certificate/DSA0014874861226" target="_blank">
+    <img src="./certificates/datacamp-dsa-certificate.png" width="99%" alt="DataCamp Certified Data Scientist Associate" />
+  </a>
+</p>
+
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements:
 
 <p align="center">
