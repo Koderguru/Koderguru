@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://www.datacamp.com/certificate/DSA0014874861226" target="_blank">
-    <img src="./certificates/datacamp-dsa-certificate.png" width="98%" alt="DataCamp Certified Data Scientist Associate" />
+    <img src="./certificates/datacamp-dsa-certificate.png?v=2" width="98%" alt="DataCamp Certified Data Scientist Associate" />
   </a>
 </p>
 
