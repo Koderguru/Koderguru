@@ -7,13 +7,15 @@
 <div align="center">
   <nobr>
     <a href="https://tryhackme.com/p/ugamit" target="_blank"><img src="assets/contacts/tryhackme.svg" width="7.5%" alt="TryHackMe" /></a><!--
---><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="13.5%" /><!--
+--><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="9.5%" /><!--
 --><a href="https://www.linkedin.com/in/amit-dutta-5169022ab/" target="_blank"><img src="assets/contacts/linkedin.svg" width="6.5%" alt="LinkedIn" /></a><!--
---><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="13.5%" /><!--
+--><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="9.5%" /><!--
+--><a href="https://leetcode.com/u/MrX_2005/" target="_blank"><img src="assets/contacts/leetcode.svg" width="6.8%" alt="LeetCode" /></a><!--
+--><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="9.5%" /><!--
 --><a href="https://discord.gg/FBw3Xh4qdK" target="_blank"><img src="assets/contacts/discord.svg" width="6.2%" alt="Discord" /></a><!--
---><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="13.5%" /><!--
+--><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="9.5%" /><!--
 --><a href="https://instagram.com/eternal.amit" target="_blank"><img src="assets/contacts/instagram.svg" width="7.2%" alt="Instagram" /></a><!--
---><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="13.5%" /><!--
+--><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'></svg>" width="9.5%" /><!--
 --><a href="mailto:amitxdeveloper@gmail.com"><img src="assets/contacts/email.svg" width="5.0%" alt="Email" /></a>
   </nobr>
 </div>
@@ -69,6 +71,18 @@
   <a href="https://www.datacamp.com/certificate/DSA0014874861226" target="_blank">
     <img src="./certificates/datacamp-dsa-certificate.png?v=2" width="98%" alt="DataCamp Certified Data Scientist Associate" />
   </a>
+</p>
+
+# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png" width="28" style="vertical-align:middle"/> LeetCode Achievements:
+
+<p align="center">
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="./leetcode-card.svg" height="175" align="middle" alt="LeetCode Stats" /></a>
+  &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="https://leetcode.com/static/images/badges/knight.png" width="62" align="middle" title="Knight Badge" alt="Knight Badge" /></a>
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="https://assets.leetcode.com/static_assets/others/lg25100.png" width="58" align="middle" title="100 Days Badge 2025" alt="100 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="https://assets.leetcode.com/static_assets/others/lg2550.png" width="58" align="middle" title="50 Days Badge 2025" alt="50 Days Badge 2025" /></a>
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="58" align="middle" title="100 Days Badge 2024" alt="100 Days Badge 2024" /></a>
+  <a href="https://leetcode.com/u/MrX_2005/"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="58" align="middle" title="50 Days Badge 2024" alt="50 Days Badge 2024" /></a>
 </p>
 
 # <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" width="28" style="vertical-align:middle"/> Tech Stack:
