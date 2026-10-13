@@ -64,17 +64,17 @@
 
 <p align="center">
   <a href="https://labs.cyberwarfare.live/credential/certificate/687feb78bf373ee66a1848d4" target="_blank">
-    <img src="./certificates/crta-certificate.png" width="49%" alt="Certified Red Team Analyst (CRTA)" />
+    <img src="./certificates/crta-certificate.png" width="48%" alt="Certified Red Team Analyst (CRTA)" />
   </a>
   &nbsp;
   <a href="https://portswigger.net/web-security/e/c/bdb2a223dd235409" target="_blank">
-    <img src="./certificates/bscp-certificate.png" width="49%" alt="Burp Suite Certified Practitioner (BSCP)" />
+    <img src="./certificates/bscp-certificate.png" width="48%" alt="Burp Suite Certified Practitioner (BSCP)" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.datacamp.com/certificate/DSA0014874861226" target="_blank">
-    <img src="./certificates/datacamp-dsa-certificate.png" width="99%" alt="DataCamp Certified Data Scientist Associate" />
+    <img src="./certificates/datacamp-dsa-certificate.png" width="48%" alt="DataCamp Certified Data Scientist Associate" />
   </a>
 </p>
 
